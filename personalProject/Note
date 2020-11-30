@@ -20,3 +20,16 @@ class Employeee{
         }
     }
 }
+
+ESCAPE SEQUENCIES
+
+public class Main {
+    public static void main(String[] args) {
+        // shorthand primitive data
+        String message = "  I love you \"Dave\""; // will print: I love you "Dave"
+        String message = "c:\\windows\\..." // will print: c:\windows\...
+        String message = "c:\n windows\\..." // will print: c:
+        \windows\...(NEW LINE IS INSERT BEFORE W)
+
+        String message = "c:\t PORTFOLOwindows\\..." // will print: c:\windows\...
+
