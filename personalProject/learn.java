@@ -35,12 +35,34 @@ public class learn {
         // System.out.println(point2); // sout to generate the snippet
 
         // Arrays
-        int[] numbers = new int[5];// 5 is the length of items in the array. Pay attention name
+        // int[] numbers = new int[5];// 5 is the length of items in the array. Pay
+        // attention name
         // of variable names: plu and sing.
-        numbers[0] = 1;
-        numbers[1] = 2;
-        numbers[3] = 3;
+        // numbers[0] = 78;
+        // numbers[1] = 25;
+        // numbers[3] = 38;
 
-        System.out.println(Arrays.toString(numbers));
+        // System.out.println(Arrays.toString(numbers));
+
+        // THE METHOD ABOVE IS OLD syntax OF DECLARING ARRAY
+
+        // HERE IS THE NEW ONE
+        // NOTE JAVA ARRRAYS have fix length. onvce created, it cannot be mutated
+
+        // int[] numbers = { 34, 78, 90, 300, 180, 65, 98, };
+        // System.out.println(numbers.length);
+        // System.out.println(Arrays.toString(numbers));
+
+        // two dimentional arrays
+        // int[][] numbers = new int[2][3];
+        // numbers[0][0] = 1;
+        // // use deepToString for printing multi dimentional arrays
+        // System.out.println(Arrays.deepToString(numbers));
+
+        // curly braces syntax
+        int[][] numbers = { { 3, 4, 5 }, { 3, 5 } };
+        // use deepToString for printing multi dimentional arrays
+        System.out.println(Arrays.deepToString(numbers));
+
     }
 }
