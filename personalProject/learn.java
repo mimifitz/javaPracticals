@@ -147,7 +147,8 @@ public class learn {
         // int result = (int) Math.round(Math.random() * 100);
         // System.out.println(result);
 
-        // example 4. Results in whole numbers between 0-100 with using Math.round
+        // example 4. ANOTHER Results in whole numbers between 0-100 with using
+        // Math.round
         // int result = (int) (Math.random() * 100);
         // System.out.println(result);
 
